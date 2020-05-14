@@ -18,5 +18,5 @@ def key_for_min_value(name_hash)
   end
   buff_key
 end
-
-puts key_for_min_value({a: 1, b: 2, c: 3})
+my_hash ={a: 1, b: 2, c: 3}
+puts key_for_min_value(my_hash)
