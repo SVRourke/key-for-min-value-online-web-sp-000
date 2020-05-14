@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.each do |value, key|
     puts key
     if buff_val
-      if key < buff_val
+      if key < (buff_val)to_i
         buff_key = key
         buff_val = value
       end
