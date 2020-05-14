@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   buff_key = ""
   buff_val = ""
   puts ? buff_val
-  name_hash.each do |key, value|
+  name_hash.each do |value, key|
     if buff_val
       if key < buff_val
         buff_key = key
